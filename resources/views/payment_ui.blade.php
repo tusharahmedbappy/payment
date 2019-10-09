@@ -17,7 +17,6 @@
 
             <form action="{{url('/pay_action')}}" method="post" id="payment-form">
                 @csrf
-                <input type="text" placeholder="Amount">
                 <div class="form-row">
                     <label for="card-element">
                         Credit or debit card
