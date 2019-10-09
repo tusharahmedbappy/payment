@@ -1,0 +1,51 @@
+.StripeElement {
+    box-sizing: border-box;
+
+    height: 40px;
+
+    padding: 10px 12px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+    box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+    border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+    background-color: #fefde5 !important;
+}
+.container {
+    background: #00fbcc3b;
+    padding: 162px;
+    text-align: center;
+    color: #4900f9;
+}
+button {
+    background: #ff134a;
+    border: 0px;
+    padding: 11px 29px;
+    margin: 20px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.jumbotron {
+    background: #056d3d;
+    text-align: center;
+    color: #ffffff;
+    height: 200px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 32px;
+}
